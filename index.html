@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pirate Bartender!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css">
+    <link rel="stylesheet" href="css/style.css" charset="utf-8">
+</head>
+
+<body>
+    <header role="header">
+        <h1 class="titleHeader">Ahoy Seadog! Ye Look Thirsty...Lets get ye somethin' to drink</h1>
+
+    </header>
+    <main role="main">
+        <form>
+            <div class="formGroup">
+                <label for="isDrinkStrong">Yo-ho-ho! do ye like yer drink strong??</label>
+                <select name="isDrinkStrong" class="isDrinkStrong">
+                    <option value="yes">Aye</option>
+                    <option value="no">Nay</option>
+                </select>
+            </div>
+            <div class="formGroup">
+                <label for="isDrinkSalty">Blimey! do ye like yer drink salty??</label>
+                <select name="isDrinkSalty" class="isDrinkSalty">
+                    <option value="yes">Aye</option>
+                    <option value="no">Nay</option>
+                </select>
+            </div>
+            <div class="formGroup">
+                <label for="isDrinkBitter">Alas! do ye like yer drink bitter??</label>
+                <select name="isDrinkBitter" class="isDrinkBitter">
+                    <option value="yes">Aye</option>
+                    <option value="no">Nay</option>
+                </select>
+            </div>
+            <div class="formGroup">
+                <label for="isDrinkSweet">Would ye like a bit of sweetness with your poison?</label>
+                <select name="isDrinkSweet" class="isDrinkSweet">
+                    <option value="yes">Aye</option>
+                    <option value="no">Nay</option>
+                </select>
+            </div>
+            <div class="formGroup">
+                <label for="isDrinkFruity">No quarter! do ye like yer drink fruity?</label>
+                <select name="isDrinkFruity" class="isDrinkFruity">
+                    <option value="yes">Aye</option>
+                    <option value="no">Nay</option>
+                </select>
+            </div>
+            <div class="formGroup button">
+                <button class="orderBtn">Yarr! bestow me yer drink order</button>
+            </div>
+        </form>
+
+    </main>
+    <section class="output">
+        <h3></h3>
+        <ul></ul>
+    </section>
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+
+</html>
